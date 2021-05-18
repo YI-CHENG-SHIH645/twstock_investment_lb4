@@ -4,6 +4,7 @@ This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/
 [initial project layout](https://loopback.io/doc/en/lb4/Loopback-application-layout.html).
 
 ```sh
+sudo docker build . -t '<image_name>'
 sudo docker run -p 3000:3000 -d -v "${PWD}/public:/home/node/app/public" <image_name>
 ```
 
