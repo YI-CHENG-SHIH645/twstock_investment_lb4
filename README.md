@@ -3,6 +3,10 @@
 This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
 [initial project layout](https://loopback.io/doc/en/lb4/Loopback-application-layout.html).
 
+```sh
+sudo docker run image -p 3000:3000 -d -v "${PWD}/public:/home/node/app/public" <image_name>
+```
+
 ## Install dependencies
 
 By default, dependencies were installed when this application was generated.
