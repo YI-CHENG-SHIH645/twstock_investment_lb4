@@ -5,10 +5,10 @@ const config = {
   name: 'financial_data',
   connector: 'postgresql',
   url: '',
-  host: '35.221.157.191',
+  host: '',
   port: 5432,
   user: 'postgres',
-  password: 'CROCODILe5064',
+  password: '',
   database: 'financial_data'
 };
 
